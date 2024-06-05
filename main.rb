@@ -7,7 +7,7 @@ puts 'Desea ejecutar el programa con los datos de ejemplo? (si/no)'
 user_option_input = gets.chomp
 
 if user_option_input.downcase == 'si'
-  invoice_sample = Invoice.new('76329692-K', '77360390-1', 1_000_000, 75, '2024-07-04')
+  invoice_sample = Invoice.new('76329692-K', '77360390-1', 1_000_000, 75, '2024-07-05')
   puts 'Datos de ejemplo: '
   invoice_sample.display_details
   invoice = invoice_sample
